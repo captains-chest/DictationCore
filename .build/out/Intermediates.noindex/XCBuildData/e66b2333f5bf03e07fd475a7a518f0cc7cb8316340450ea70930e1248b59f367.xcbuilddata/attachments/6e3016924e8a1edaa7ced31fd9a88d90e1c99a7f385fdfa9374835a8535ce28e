@@ -1,0 +1,4 @@
+module DictationCore {
+header "DictationCore-Swift.h"
+export *
+}
