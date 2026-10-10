@@ -34,4 +34,4 @@ Then implement the ports for your platform (microphone, WhisperKit or other tran
 
 ## License
 
-MIT
+MIT © 2026 Nicki Skipper Otte. See [LICENSE](LICENSE). No third-party code.
