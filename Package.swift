@@ -5,7 +5,7 @@ let package = Package(
     name: "DictationCore",
     platforms: [
         .macOS(.v15),
-        .iOS(.v17)
+        .iOS(.v18) // Synchronization.Mutex (CaptureBuffer) needs iOS 18
     ],
     products: [
         .library(

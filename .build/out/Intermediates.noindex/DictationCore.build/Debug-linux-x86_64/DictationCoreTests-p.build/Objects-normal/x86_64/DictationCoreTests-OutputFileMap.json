@@ -1,0 +1,69 @@
+{
+  "" : {
+    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/DictationCoreTests-primary.dia",
+    "emit-module-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/DictationCoreTests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/DictationCoreTests-primary-emit-module.dia",
+    "pch" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/DictationCoreTests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/DictationCoreTests-primary.swiftdeps"
+  },
+  "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/DerivedSources/test_anchor.swift" : {
+    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/test_anchor.swiftconstvalues",
+    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/test_anchor.d",
+    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/test_anchor.dia",
+    "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/test_anchor.o",
+    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/test_anchor.bc",
+    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/test_anchor.o",
+    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/test_anchor.swiftdeps",
+    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/test_anchor~partial.swiftmodule"
+  },
+  "/workspace/pkg-dc/Tests/DictationCoreTests/CaptureBufferTests.swift" : {
+    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/CaptureBufferTests.swiftconstvalues",
+    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/CaptureBufferTests.d",
+    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/CaptureBufferTests.dia",
+    "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/CaptureBufferTests.o",
+    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/CaptureBufferTests.bc",
+    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/CaptureBufferTests.o",
+    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/CaptureBufferTests.swiftdeps",
+    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/CaptureBufferTests~partial.swiftmodule"
+  },
+  "/workspace/pkg-dc/Tests/DictationCoreTests/DictationControllerTests.swift" : {
+    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/DictationControllerTests.swiftconstvalues",
+    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/DictationControllerTests.d",
+    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/DictationControllerTests.dia",
+    "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/DictationControllerTests.o",
+    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/DictationControllerTests.bc",
+    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/DictationControllerTests.o",
+    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/DictationControllerTests.swiftdeps",
+    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/DictationControllerTests~partial.swiftmodule"
+  },
+  "/workspace/pkg-dc/Tests/DictationCoreTests/PureLogicTests.swift" : {
+    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/PureLogicTests.swiftconstvalues",
+    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/PureLogicTests.d",
+    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/PureLogicTests.dia",
+    "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/PureLogicTests.o",
+    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/PureLogicTests.bc",
+    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/PureLogicTests.o",
+    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/PureLogicTests.swiftdeps",
+    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/PureLogicTests~partial.swiftmodule"
+  },
+  "/workspace/pkg-dc/Tests/DictationCoreTests/UpdateCheckTests.swift" : {
+    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/UpdateCheckTests.swiftconstvalues",
+    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/UpdateCheckTests.d",
+    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/UpdateCheckTests.dia",
+    "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/UpdateCheckTests.o",
+    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/UpdateCheckTests.bc",
+    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/UpdateCheckTests.o",
+    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/UpdateCheckTests.swiftdeps",
+    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/UpdateCheckTests~partial.swiftmodule"
+  },
+  "/workspace/pkg-dc/Tests/DictationCoreTests/WhatsNewTests.swift" : {
+    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/WhatsNewTests.swiftconstvalues",
+    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/WhatsNewTests.d",
+    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/WhatsNewTests.dia",
+    "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/WhatsNewTests.o",
+    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/WhatsNewTests.bc",
+    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/WhatsNewTests.o",
+    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/WhatsNewTests.swiftdeps",
+    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCoreTests-p.build/Objects-normal/x86_64/WhatsNewTests~partial.swiftmodule"
+  }
+}
