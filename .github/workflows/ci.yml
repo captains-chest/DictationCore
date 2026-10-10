@@ -15,8 +15,11 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Toolchain
-        run: swift --version
+        run: |
+          swift --version
+          xcodebuild -version
+          xcrun simctl list runtimes ios | head -5 || true
       - name: Test (macOS)
         run: swift test
       - name: Build (iOS)
-        run: xcodebuild build -scheme DictationCore -destination 'generic/platform=iOS' -quiet
+        run: xcodebuild build -scheme DictationCore -destination 'generic/platform=iOS' -skipPackagePluginValidation CODE_SIGNING_ALLOWED=NO -quiet
