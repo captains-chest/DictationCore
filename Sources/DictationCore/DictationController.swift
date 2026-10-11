@@ -31,6 +31,17 @@ public protocol TextInserting: AnyObject {
     func deleteBackward(_ count: Int) async throws
 }
 
+/// Reads the text just before the insertion point in the focused field, so a dictation can be
+/// spaced and capitalized to fit. Best effort: return nil whenever it can't be read (no access,
+/// secure field, timeout); the controller then falls back to its own dictation history.
+/// The text is never stored or logged.
+@MainActor
+public protocol PrecedingTextReading: AnyObject {
+    /// Text before the insertion point (up to `maxLength`), or nil when unavailable.
+    /// Empty string means cursor at start / empty field.
+    func textBeforeCursor(maxLength: Int) -> String?
+}
+
 // MARK: - State machine
 
 /// How long one dictation took, for latency logging. Contains no text or audio.
@@ -77,9 +88,6 @@ public final class DictationController {
     /// Language for the next transcriptions.
     public var language: DictationLanguage = .automatic
 
-    /// Reads the text just before the cursor in the focused field, or returns nil when it can't.
-    /// Used to space and capitalize a dictation to fit; never stored or logged.
-    @ObservationIgnored public var textBeforeCursor: (() -> String?)?
     /// Called after each dictation is typed, with how long it took.
     @ObservationIgnored public var onTiming: ((DictationTiming) -> Void)?
     @ObservationIgnored public var onStateChange: ((DictationState) -> Void)?
@@ -89,6 +97,7 @@ public final class DictationController {
     @ObservationIgnored private let recorder: any AudioRecording
     @ObservationIgnored private let transcriber: any Transcribing
     @ObservationIgnored private let inserter: any TextInserting
+    @ObservationIgnored private let precedingText: any PrecedingTextReading
     @ObservationIgnored private let now: () -> TimeInterval
     @ObservationIgnored private let holdThreshold: TimeInterval
     @ObservationIgnored private let minimumSamples: Int
@@ -111,6 +120,7 @@ public final class DictationController {
         recorder: any AudioRecording,
         transcriber: any Transcribing,
         inserter: any TextInserting,
+        precedingText: any PrecedingTextReading,
         now: @escaping () -> TimeInterval = { ProcessInfo.processInfo.systemUptime },
         holdThreshold: TimeInterval = 0.35,
         minimumDuration: TimeInterval = 0.3,
@@ -121,6 +131,7 @@ public final class DictationController {
         self.recorder = recorder
         self.transcriber = transcriber
         self.inserter = inserter
+        self.precedingText = precedingText
         self.now = now
         self.holdThreshold = holdThreshold
         self.minimumSamples = Int(minimumDuration * Self.sampleRate)
@@ -131,6 +142,9 @@ public final class DictationController {
 
     /// 30 s plus the length of the audio: far beyond normal (a few seconds), but bounded, so a stuck
     /// model can never leave dictation disabled.
+    /// How much text before the cursor is read for spacing and capitalization.
+    public nonisolated static let precedingTextLength = 64
+
     public nonisolated static func defaultTranscriptionTimeout(sampleCount: Int) -> Duration {
         .seconds(30) + .seconds(Double(sampleCount) / sampleRate)
     }
@@ -356,7 +370,7 @@ public final class DictationController {
         // nothing else was typed since; otherwise unknown, and the text is typed as transcribed.
         // An empty field reading next to a dictation we just typed means the app reports its text
         // wrongly (some web views do), so the history is trusted over it.
-        let fieldText = textBeforeCursor?()
+        let fieldText = precedingText.textBeforeCursor(maxLength: Self.precedingTextLength)
         let preceding = fieldText?.isEmpty == false ? fieldText : (history.lastInserted ?? fieldText)
         let typed = SmartJoin.adjust(text, after: preceding)
         // Typing stays in `.transcribing`, so Cancel Dictation can still stop it. It runs inside

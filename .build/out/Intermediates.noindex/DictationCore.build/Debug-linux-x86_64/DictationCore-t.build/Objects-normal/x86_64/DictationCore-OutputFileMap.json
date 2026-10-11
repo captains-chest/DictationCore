@@ -1,159 +1,159 @@
 {
   "" : {
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationCore-primary.dia",
-    "emit-module-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationCore-primary-emit-module.d",
-    "emit-module-diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationCore-primary-emit-module.dia",
-    "pch" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationCore-primary-Bridging-header.pch",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationCore-primary.swiftdeps"
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationCore-primary.dia",
+    "emit-module-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationCore-primary-emit-module.d",
+    "emit-module-diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationCore-primary-emit-module.dia",
+    "pch" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationCore-primary-Bridging-header.pch",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationCore-primary.swiftdeps"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/AppVersion.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion.dia",
+  "/workspace/DictationCore/Sources/DictationCore/AppVersion.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AppVersion~partial.swiftmodule"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/AudioRingBuffer.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer.dia",
+  "/workspace/DictationCore/Sources/DictationCore/AudioRingBuffer.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/AudioRingBuffer~partial.swiftmodule"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/CaptureBuffer.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer.dia",
+  "/workspace/DictationCore/Sources/DictationCore/CaptureBuffer.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/CaptureBuffer~partial.swiftmodule"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/Chord.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord.dia",
+  "/workspace/DictationCore/Sources/DictationCore/Chord.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Chord~partial.swiftmodule"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/DictationController.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController.dia",
+  "/workspace/DictationCore/Sources/DictationCore/DictationController.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationController~partial.swiftmodule"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/DictationLanguage.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage.dia",
+  "/workspace/DictationCore/Sources/DictationCore/DictationLanguage.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationLanguage~partial.swiftmodule"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/DictationPrompt.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt.dia",
+  "/workspace/DictationCore/Sources/DictationCore/DictationPrompt.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/DictationPrompt~partial.swiftmodule"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/KeyLabels.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels.dia",
+  "/workspace/DictationCore/Sources/DictationCore/KeyLabels.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/KeyLabels~partial.swiftmodule"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/Shortcut.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut.dia",
+  "/workspace/DictationCore/Sources/DictationCore/Shortcut.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/Shortcut~partial.swiftmodule"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/SmartJoin.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin.dia",
+  "/workspace/DictationCore/Sources/DictationCore/SmartJoin.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SmartJoin~partial.swiftmodule"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/SpeechActivity.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity.dia",
+  "/workspace/DictationCore/Sources/DictationCore/SpeechActivity.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/SpeechActivity~partial.swiftmodule"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/TextChunker.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker.dia",
+  "/workspace/DictationCore/Sources/DictationCore/TextChunker.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TextChunker~partial.swiftmodule"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/TranscriptCleaner.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner.dia",
+  "/workspace/DictationCore/Sources/DictationCore/TranscriptCleaner.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/TranscriptCleaner~partial.swiftmodule"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/UpdateCheck.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck.dia",
+  "/workspace/DictationCore/Sources/DictationCore/UpdateCheck.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/UpdateCheck~partial.swiftmodule"
   },
-  "/workspace/pkg-dc/Sources/DictationCore/WhatsNew.swift" : {
-    "const-values" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew.swiftconstvalues",
-    "dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew.d",
-    "diagnostics" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew.dia",
+  "/workspace/DictationCore/Sources/DictationCore/WhatsNew.swift" : {
+    "const-values" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew.swiftconstvalues",
+    "dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew.d",
+    "diagnostics" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew.dia",
     "index-unit-output-path" : "/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew.o",
-    "llvm-bc" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew.bc",
-    "object" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew.o",
-    "swift-dependencies" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew.swiftdeps",
-    "swiftmodule" : "/workspace/pkg-dc/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew~partial.swiftmodule"
+    "llvm-bc" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew.bc",
+    "object" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew.o",
+    "swift-dependencies" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew.swiftdeps",
+    "swiftmodule" : "/workspace/DictationCore/.build/out/Intermediates.noindex/DictationCore.build/Debug-linux-x86_64/DictationCore-t.build/Objects-normal/x86_64/WhatsNew~partial.swiftmodule"
   }
 }
