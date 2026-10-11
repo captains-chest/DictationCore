@@ -100,6 +100,17 @@ final class FakeInserter: TextInserting {
     }
 }
 
+/// Returns `text` as the field's text before the cursor; nil means it can't be read.
+@MainActor
+final class FakePrecedingTextReader: PrecedingTextReading {
+    var text: String?
+    private(set) var requestedLengths: [Int] = []
+    func textBeforeCursor(maxLength: Int) -> String? {
+        requestedLengths.append(maxLength)
+        return text
+    }
+}
+
 struct Boom: Error {}
 
 @MainActor
@@ -107,6 +118,7 @@ struct DictationControllerTests {
     let recorder = FakeRecorder()
     let transcriber = FakeTranscriber()
     let inserter = FakeInserter()
+    let precedingText = FakePrecedingTextReader()
     let clock = Clock()
 
     final class Clock { var now: TimeInterval = 100 }
@@ -117,6 +129,7 @@ struct DictationControllerTests {
             recorder: recorder,
             transcriber: transcriber,
             inserter: inserter,
+            precedingText: precedingText,
             now: { clock.now },
             stopTail: .zero,
             transcriptionTimeout: { _ in timeout }
@@ -208,6 +221,7 @@ struct DictationControllerTests {
             recorder: recorder,
             transcriber: transcriber,
             inserter: inserter,
+            precedingText: precedingText,
             now: { clock.now },
             stopTail: .milliseconds(50),
             transcriptionTimeout: { _ in .seconds(30) }
@@ -369,17 +383,33 @@ struct DictationControllerTests {
     @Test func readableFieldTextWinsOverHistory() async {
         let controller = await makeController()
         await dictate(controller, "Hello world.")
-        controller.textBeforeCursor = { "Dear Sir," }
+        precedingText.text = "Dear Sir,"
         await dictate(controller, "Thanks for writing.")
         #expect(inserter.inserted.last == " thanks for writing.")
     }
 
     @Test func emptyFieldReadingDoesNotOverrideHistory() async {
         let controller = await makeController()
-        controller.textBeforeCursor = { "" }
+        precedingText.text = ""
         await dictate(controller, "hello world.")
         await dictate(controller, "and more.")
         #expect(inserter.inserted == ["Hello world.", " And more."])
+    }
+
+    @Test func unreadableFieldFallsBackToHistory() async {
+        let controller = await makeController()
+        precedingText.text = nil
+        await dictate(controller, "Hello world.")
+        await dictate(controller, "and more")
+        #expect(inserter.inserted == ["Hello world.", " And more"])
+        #expect(precedingText.requestedLengths == [64, 64])
+    }
+
+    @Test func unreadableFieldWithoutHistoryTypesAsTranscribed() async {
+        let controller = await makeController()
+        precedingText.text = nil
+        await dictate(controller, "hello world")
+        #expect(inserter.inserted == ["hello world"])
     }
 
     @Test func reportsTimingFromReleaseToTypedText() async {
@@ -669,7 +699,7 @@ struct DictationControllerTests {
 
     @Test func cancelDuringStopTailClosesTheMicrophoneAtOnce() async {
         let controller = DictationController(
-            recorder: recorder, transcriber: transcriber, inserter: inserter,
+            recorder: recorder, transcriber: transcriber, inserter: inserter, precedingText: precedingText,
             now: { [clock] in clock.now }, stopTail: .milliseconds(200)
         )
         await controller.loadModel()

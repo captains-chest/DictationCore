@@ -21,13 +21,13 @@
           "targetArchitecture" : "x86_64"
         },
         "arenaInfo" : {
-          "buildIntermediatesPath" : "/workspace/pkg-dc/.build/out/Intermediates.noindex",
-          "buildProductsPath" : "/workspace/pkg-dc/.build/out/Products",
-          "derivedDataPath" : "/workspace/pkg-dc/.build/out",
-          "indexDataStoreFolderPath" : "/workspace/pkg-dc/.build/out",
+          "buildIntermediatesPath" : "/workspace/DictationCore/.build/out/Intermediates.noindex",
+          "buildProductsPath" : "/workspace/DictationCore/.build/out/Products",
+          "derivedDataPath" : "/workspace/DictationCore/.build/out",
+          "indexDataStoreFolderPath" : "/workspace/DictationCore/.build/out",
           "indexEnableDataStore" : false,
-          "indexPCHPath" : "/workspace/pkg-dc/.build/out",
-          "pchPath" : "/workspace/pkg-dc/.build/out/PCH"
+          "indexPCHPath" : "/workspace/DictationCore/.build/out",
+          "pchPath" : "/workspace/DictationCore/.build/out/PCH"
         },
         "configurationName" : "Debug",
         "overrides" : {
@@ -80,13 +80,13 @@
       "targetArchitecture" : "x86_64"
     },
     "arenaInfo" : {
-      "buildIntermediatesPath" : "/workspace/pkg-dc/.build/out/Intermediates.noindex",
-      "buildProductsPath" : "/workspace/pkg-dc/.build/out/Products",
-      "derivedDataPath" : "/workspace/pkg-dc/.build/out",
-      "indexDataStoreFolderPath" : "/workspace/pkg-dc/.build/out",
+      "buildIntermediatesPath" : "/workspace/DictationCore/.build/out/Intermediates.noindex",
+      "buildProductsPath" : "/workspace/DictationCore/.build/out/Products",
+      "derivedDataPath" : "/workspace/DictationCore/.build/out",
+      "indexDataStoreFolderPath" : "/workspace/DictationCore/.build/out",
       "indexEnableDataStore" : false,
-      "indexPCHPath" : "/workspace/pkg-dc/.build/out",
-      "pchPath" : "/workspace/pkg-dc/.build/out/PCH"
+      "indexPCHPath" : "/workspace/DictationCore/.build/out",
+      "pchPath" : "/workspace/DictationCore/.build/out/PCH"
     },
     "configurationName" : "Debug",
     "overrides" : {
