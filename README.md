@@ -2,7 +2,7 @@
 
 Shared pure Swift logic for offline dictation applications.
 
-This package contains the platform-agnostic core used by [yet-another-dictator](https://github.com/captainDuckay/yet-another-dictator) (macOS) and its iOS counterpart.
+This package contains the platform-agnostic core used by [yet-another-dictator](https://github.com/captains-chest/yet-another-dictator) (macOS) and its iOS counterpart.
 
 ## What is included
 
