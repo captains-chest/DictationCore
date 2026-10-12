@@ -33,13 +33,23 @@ public protocol TextInserting: AnyObject {
 
 /// Reads the text just before the insertion point in the focused field, so a dictation can be
 /// spaced and capitalized to fit. Best effort: return nil whenever it can't be read (no access,
-/// secure field, timeout); the controller then falls back to its own dictation history.
+/// secure field, timeout); the controller then falls back to its own dictation history, unless
+/// `usesHistoryForJoining` is false.
 /// The text is never stored or logged.
 @MainActor
 public protocol PrecedingTextReading: AnyObject {
     /// Text before the insertion point (up to `maxLength`), or nil when unavailable.
     /// Empty string means cursor at start / empty field.
     func textBeforeCursor(maxLength: Int) -> String?
+
+    /// When the field can't be read (or reads empty), fall back to the last dictation for SmartJoin.
+    /// Default true. Return false when another layer owns spacing and capitalization (for example
+    /// an iOS keyboard reading `documentContextBeforeInput`), so the transcript is handed off raw.
+    var usesHistoryForJoining: Bool { get }
+}
+
+extension PrecedingTextReading {
+    public var usesHistoryForJoining: Bool { true }
 }
 
 // MARK: - State machine
@@ -369,9 +379,17 @@ public final class DictationController {
         // The field's own text when it can be read; otherwise our previous dictation, as long as
         // nothing else was typed since; otherwise unknown, and the text is typed as transcribed.
         // An empty field reading next to a dictation we just typed means the app reports its text
-        // wrongly (some web views do), so the history is trusted over it.
+        // wrongly (some web views do), so the history is trusted over it — unless the reader opts
+        // out, which means another layer (e.g. an iOS keyboard) will join the transcript itself.
         let fieldText = precedingText.textBeforeCursor(maxLength: Self.precedingTextLength)
-        let preceding = fieldText?.isEmpty == false ? fieldText : (history.lastInserted ?? fieldText)
+        let preceding: String?
+        if let fieldText, !fieldText.isEmpty {
+            preceding = fieldText
+        } else if precedingText.usesHistoryForJoining {
+            preceding = history.lastInserted ?? fieldText
+        } else {
+            preceding = nil
+        }
         let typed = SmartJoin.adjust(text, after: preceding)
         // Typing stays in `.transcribing`, so Cancel Dictation can still stop it. It runs inside
         // the `transcription` task, which cancel() cancels; the inserter then stops between chunks.

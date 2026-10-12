@@ -104,6 +104,7 @@ final class FakeInserter: TextInserting {
 @MainActor
 final class FakePrecedingTextReader: PrecedingTextReading {
     var text: String?
+    var usesHistoryForJoining = true
     private(set) var requestedLengths: [Int] = []
     func textBeforeCursor(maxLength: Int) -> String? {
         requestedLengths.append(maxLength)
@@ -410,6 +411,15 @@ struct DictationControllerTests {
         precedingText.text = nil
         await dictate(controller, "hello world")
         #expect(inserter.inserted == ["hello world"])
+    }
+
+    @Test func optingOutOfHistoryLeavesConsecutiveDictationsRaw() async {
+        let controller = await makeController()
+        precedingText.text = nil
+        precedingText.usesHistoryForJoining = false
+        await dictate(controller, "Hello world.")
+        await dictate(controller, "and more")
+        #expect(inserter.inserted == ["Hello world.", "and more"])
     }
 
     @Test func reportsTimingFromReleaseToTypedText() async {
