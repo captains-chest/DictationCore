@@ -1,29 +1,27 @@
-/// The language Whisper should transcribe. Automatic detection is unreliable for short clips
-/// (Danish is easily mistaken for Norwegian or English), so a fixed language can be chosen.
+/// The language Whisper should transcribe. Automatic detection is unreliable for short clips, so a
+/// fixed language can be chosen. Dictator is English-only: Danish is not offered.
 public enum DictationLanguage: String, CaseIterable, Codable, Sendable {
     case automatic
-    case danish
     case english
 
     /// Whisper's language code, or nil to detect it from the audio.
     public var whisperCode: String? {
         switch self {
         case .automatic: nil
-        case .danish: "da"
         case .english: "en"
         }
     }
 
-    /// Shown in Settings, each language in its own language.
+    /// Shown in Settings.
     public var displayName: String {
         switch self {
         case .automatic: "Automatic"
-        case .danish: "Dansk"
         case .english: "English"
         }
     }
 
-    /// Reads a stored value, falling back to automatic for anything unknown.
+    /// Reads a stored value, falling back to automatic for anything unknown (including the removed
+    /// `danish` case).
     public init(storedValue: String?) {
         self = storedValue.flatMap(Self.init(rawValue:)) ?? .automatic
     }

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.0
+
+- **Breaking:** `DictationLanguage.danish` is removed. Dictator is English-only; only `.automatic`
+  and `.english` remain. Stored `"danish"` values fall back to `.automatic`.
+
 ## 0.2.1
 
 - `PrecedingTextReading.usesHistoryForJoining` (default `true`) lets a reader opt out of the

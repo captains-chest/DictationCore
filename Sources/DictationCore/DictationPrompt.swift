@@ -5,9 +5,9 @@
 /// gives it no evidence that output should be written as complete sentences. A few complete,
 /// punctuated sentences fix that.
 ///
-/// The prompt is bilingual (Danish and English) and only sets the style. The spoken language is
-/// detected from the audio alone (from the start-of-transcript token, before the prompt is used), so
-/// the prompt does not steer which language is transcribed.
+/// The prompt only sets punctuation style (short, complete sentences). The spoken language is
+/// chosen separately (or detected from the audio alone when automatic). Dictator is English-only;
+/// the prompt text may still include a few non-English sample sentences for style variety.
 public enum DictationPrompt {
     public static let text = "Hej, hvordan går det? Det går godt, tak. Hello, how are you? I'm fine, thanks."
 

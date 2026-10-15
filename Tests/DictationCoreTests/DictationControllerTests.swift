@@ -350,12 +350,12 @@ struct DictationControllerTests {
         controller.hotkeyPressed()
         controller.hotkeyPressed()
         await waitUntilReady(controller)
-        controller.language = .danish
+        controller.language = .english
         controller.hotkeyPressed()
         controller.hotkeyPressed()
         await waitUntilReady(controller)
 
-        #expect(await transcriber.languages == [nil, "da"])
+        #expect(await transcriber.languages == [nil, "en"])
     }
 
     private func dictate(_ controller: DictationController, _ result: String) async {
